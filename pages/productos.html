@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+   <!-- aca va el css--> 
+    <link rel="stylesheet" href="../styles/style.css">
+    <title>LOLA SHOES</title>
+</head>
+<body>
+ <header>
+    <section>
+     <h1>LOLA SHOES</h1>
+     <h2>Bienvenidos a Lola Shoes</h2>
+     <img class="card-logo" src="../assets/logololashoes.png" width="200" alt="">
+     <!-- Menu de navegacion-->
+     <nav class="navbar navbar-expand-lg bg-body-tertiary">
+       <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+           <a class="navbar-brand" href="../pages/productos.html">PRODUCTOS</a>
+           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">INICIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/pararevendedores.html">PARA REVENDEDORES</a>
+              </li>
+              <li class="nav-item">
+               <a class="nav-link" href="../pages/ubicacionycontacto.html">UBICACION Y CONTACTO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/acercadenosotrosymision.html">ACERCA DE NOSOTROS Y MISION</a>
+              </li>
+           </ul>
+           <form class="d-flex" role="search">
+             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+              <button class="btn btn-outline-success" type="submit">BUSCAR</button>
+            </form>
+         </div>
+        </div>
+     </nav>
+    </section>
+  </header>
+    <main>
+      <article>  <!-- este es un formulario de categoria de productos-->
+        <form action="/sublimit" method="post">
+         <label class="categorias" for="pais">CATEGORIAS DE PRODUCTOS</label>
+         <select class="form-select" aria-label="Default select example">
+           <option selected>BOTAS INVIERNO</option>
+           <option value="1">BOTAS VERANO</option>
+           <option value="2">SANDALIAS MUJER</option>
+           <option value="3">SANDALIAS NIÑA</option>
+           <option value="4">PANTUNFLAS INVIERNO</option>
+           <option value="5">PLATAFORMAS</option>
+           <option value="6">ZAPATOS FIESTA</option>
+           <option value="7">OJOTAS</option>
+           <option value="8">ZAPATILLAS DAMA</option>
+           <option value="9">ZAPATILLAS MUJER</option>
+          </select>
+        </form>
+      </article>
+      <section>
+            <h2 class="section-h2">Todos nuestros productos</h2>
+            <h2>Productos mas vendidos de la tienda</h2>
+          <article class="card-container2">
+               <div class="card1">  <!-- aca se encuentran todos los productos-->
+                 <img src="../assets/botas.altas.jpg" alt="">
+                 <p>Botas Renata $20.000</p>
+               </div>
+               <div class="card2">
+                 <img src="../assets/Calzado/botas caña baja.jpeg"alt="">
+                 <p>Botas Camila $20.000</p>
+               </div>
+               <div class="card3">
+                 <img src="../assets/Calzado/mocasines.jpg" alt="">
+                 <p>Mocasines Paula $25.000</p>
+               </div>
+               <div class="card4">
+                  <img src="../assets/Calzado/zapatos stileto.jpg" alt="">
+                 <p>Stiletos Maria $18.000</p>
+                </div>
+                <div class="card5">
+                  <img src="../assets/Calzado/new balance mujer.jpg" alt="">
+                  <p>New balance 009 $10.000</p>
+                </div>
+                <div class="card6">
+                 <img src="../assets/Calzado/converse mujer.jpg" alt="">
+                 <p>Converse Chunky $15.000</p>
+                </div>
+                <div class="card7">
+                 <img src="../assets/Calzado/pantunflas stich.jpeg" alt="">
+                 <p>Pantunflas Stich $10.000</p>
+                </div>
+                <div class="card8">
+                 <img src="../assets/Calzado/pantunflas capibara.jpg" alt="">
+                 <p>Pantunflas Capibara $10.000</p>
+                </div>
+                <div class="card9">
+                 <img src="../assets/Calzado/zapatilla nena.jpg" alt="">
+                 <p>Zapatilla Clara $8.000</p>
+                </div>
+                <div class="card10">
+                 <img src="../assets/Calzado/sandalia margarita.jpg" alt="">
+                 <p>Sandalia Margarita $5.000</p>
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <h4>Siguenos en nuestras redes!</h4>
+        <img src="../assets/logoderedes/Instagram_icon.png" width="30" alt="">
+        <a class="redes" href="https://www.instagram.com/">Instagram</a>
+        <img src="../assets/logoderedes/facebooklogo.png" width="30" alt="">
+        <a class="redes" href="https://www.facebook.com/?locale=es_LA">Facebook</a>
+        <img src="../assets/logoderedes/X-Logo.png" width="30" alt="">
+        <a class="redes" href="https://x.com/?lang=es">X</a>
+        <img src="../assets/logoderedes/logotiktok.jpg" width="30" alt="">
+        <a class="redes" href="https://www.tiktok.com/es/">Tik tok</a>
+        <img src="../assets/logoderedes/logo-Gmail-1.jpg" width="30" alt="">
+        <a class="redes" href="https://workspace.google.com/intl/es-419_ar/gmail/">Gmail</a>
+        <p>Copyright 2025 LOLA SHOES Todos los derechos reservados ©.</p>
+    </footer>
+    <!-- BOOTSTRAP JS-->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
