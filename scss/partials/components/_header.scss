@@ -1,0 +1,57 @@
+@use "../utilities/variables";
+nav {
+    margin: 16px;
+    padding: 16px;
+}
+.container-fluid {
+    background-color: variables.$rose-dark;
+}
+
+//FORMS DE PRODUCTOS
+.categorias {
+    margin-top: 15px;
+}
+.form-select {
+    margin: 10px;
+}
+ //HTML PARA REVENDEDORES
+ .card-img-pararevendedores {
+    display: block;
+    width: 400px;
+    margin-left: 30% ;
+    margin-right: 30%;  
+}
+main div p {
+    margin: 16px 14px 12px 10px;
+    text-align: center;
+    font-size: 15px;
+}
+//HTML UBICACION Y CONTACTO
+.card-dondeestamosubicadas {
+    display: block;
+    width: 350px;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+section p {
+    margin: 16px;
+    text-align: center;
+    font-size: 15px;
+}
+//FORMULARIO DE UBICACION Y CONTACTO
+.forms-ubiycont {
+    margin: 16px;
+}
+//HTML ACERCA DE NOSOTROS Y MISION
+.card-quienessomos {
+    display: block;
+    width: 350px;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+.card-cualesnuestramision  {
+    display: block;
+    width: 350px;
+    margin-left: 35%;
+    margin-right: 35%;
+}

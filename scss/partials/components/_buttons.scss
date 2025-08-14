@@ -1,0 +1,57 @@
+@use "../utilities/variables";
+@use "../utilities/extend";
+
+//BOTONES DE LA NAVBAR
+.btn {
+    color: black;
+    background-color: variables.$rose-dark;
+    border-color: variables.$rose-dark;
+    border-radius: 3px;
+
+    &:hover {
+        background-color: variables.$rose-light;
+    }
+}
+.navbar-brand {
+    color: rgb(44, 44, 44);
+    border-radius: 80px;
+    background-color: variables.$rose-dark;
+    
+    &:hover {
+        background-color: variables.$rose-light;
+    }
+}
+//BOTONES DEL INDEX HEADER
+.nav-item {
+    @extend %button;
+    
+    &:hover {
+        background-color: variables.$rose-light;
+    }
+}
+.btn2 {
+    @extend %button;
+    border-radius: 3px;
+    text-align: center;
+
+    &:hover {
+        background-color: variables.$rose-light;
+    }
+}
+.btn3 {
+    @extend %button;
+    border-radius: 3px;
+    text-align: center;
+
+    &:hover {
+        background-color: variables.$rose-light;
+    }
+}
+.btn4 {
+    @extend %button;
+    border-radius: 3px;
+
+    &:hover {
+        background-color: variables.$rose-light;
+    }
+}

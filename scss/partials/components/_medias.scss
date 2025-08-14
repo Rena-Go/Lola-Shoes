@@ -1,0 +1,58 @@
+@media (max-width: 450px) {
+    h1 {
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    .card-logo {
+        width: 150px;
+    }
+    h3 {
+        font-size: 25px;
+    }
+    h4 {
+        font-size: 18px;
+    }
+    .copyright {
+        font-size: 14px;
+    }
+    main div p {
+        font-size: 14px;
+    }
+     .card-img-pararevendedores {
+        display: block;
+        width: 250px;
+        margin-left: 30% ;
+        margin-right: 10%;  
+    }
+     .card-dondeestamosubicadas {
+     display: block;
+     width: 200px;
+     margin-left: 35%;
+     margin-right: 35%;
+    }
+     .card-quienessomos {
+     display: block;
+     width: 200px;
+     margin-left: 35%;
+     margin-right: 35%;
+    }
+     .card-cualesnuestramision  {
+     display: block;
+     width: 200px;
+     margin-left: 35%;
+     margin-right: 35%;
+    }
+}
+@media (min-width: 451px) and (max-width:1024px) {
+    h2 {
+        font-size: 40px;
+    }
+    .card-container2 p {
+        font-size: 25px;
+    }
+    main div p {
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,119 @@
+@use "../utilities/mixins";
+@use "../utilities/variables";
+
+//LOGO
+.card-logo {
+    display: block;
+    margin-left: 43%;
+    margin-right: 16%;
+}
+//ENLACES DEL FOOTER
+.card-container-footer {
+    @include mixins.flex (row,space-around,center);
+    padding: 30px;
+    margin: 16px;
+    align-content: space-evenly;
+}
+//CARDS DEL INDEX HEADER
+.card-container {
+  @include mixins.flex (column,center,center);
+}
+//CARDS DE LA SECCION DE PRODUCTOS
+.card-container2 {
+    @include mixins.flex (row,center,center);
+    margin: 16px;
+    gap: 80px;
+    flex-wrap:wrap;  
+}
+
+.card1 {
+    padding: 16px;
+    border: variables.$rose-light;
+   width: 300px;
+   
+   img {
+    width: 100%
+   }
+}
+
+.card2 {
+    padding: 16px;
+    border: variables.$rose-light;
+   width: 300px;
+   
+   img {
+    width: 100%
+   }
+}
+.card3 {
+    padding: 16px;
+    border: variables.$rose-light;
+   width: 350px;
+   
+   img {
+    width: 100%
+   }
+}
+.card4 {
+  padding: 16px;
+    border: variables.$rose-light;
+   width: 270px;
+   
+   img {
+    width: 100%
+   }
+}
+.card5 {
+    padding: 16px;
+    border: variables.$rose-light;
+   width: 300px;
+   
+   img {
+    width: 100%
+   }
+}
+.card6 {
+    padding: 16px;
+    border: variables.$rose-light;
+   width: 350px;
+   
+   img {
+    width: 100%
+   }
+}
+.card7 {
+   padding: 16px;
+    border: variables.$rose-light;
+   width: 320px;
+   
+   img {
+    width: 100%
+   }
+}
+.card8 {
+   padding: 16px;
+    border: variables.$rose-light;
+   width: 320px;
+   
+   img {
+    width: 100%
+   }
+}
+.card9 {
+   padding: 16px;
+    border: variables.$rose-light;
+   width: 300px;
+   
+   img {
+    width: 100%
+   }
+}
+.card10 {
+ padding: 16px;
+    border: variables.$rose-light;
+   width: 320px;
+   
+   img {
+    width: 100%
+   }
+}

@@ -1,0 +1,9 @@
+@use "../utilities/variables";
+
+%button {
+    color: variables.$pure-black;
+    border-radius: 25px;
+    border-bottom: 10px;
+    background-color: variables.$rose-dark;
+    padding: 3px;
+}
